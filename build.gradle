@@ -12,6 +12,11 @@ android {
     compileSdkVersion 'android-18'
     buildToolsVersion '19.0.1'
 
+    defaultConfig {
+        minSdkVersion 18
+        targetSdkVersion 18
+    }
+
     buildTypes {
         release {
             runProguard false
@@ -22,4 +27,8 @@ android {
 
 task wrapper(type: Wrapper) {
     gradleVersion = '1.9'
+}
+
+dependencies {
+    compile "com.android.support:support-v4:18.0.+"
 }

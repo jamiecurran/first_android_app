@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <application>
+        <activity android:name=".........src.main.java.com.threewisemonkeysdevelopment.android.DisplayMessageActivity"
+            android:label="@string/title_activity_display_message"
+            android:parentActivityName="com.threewisemonkeysdevelopment.android.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.threewisemonkeysdevelopment.android.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

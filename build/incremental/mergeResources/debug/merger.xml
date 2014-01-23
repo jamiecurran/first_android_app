@@ -11,7 +11,13 @@
             <file
                 path="/home/jamie/projects/android/first_android_app/src/main/res/values/strings.xml"
                 qualifiers="" >
+                <string name="title_activity_display_message" >My Message
+                </string>
+                <string name="edit_message" >Enter a message
+                </string>
                 <string name="app_name" >MainActivity
+                </string>
+                <string name="button_send" >Send
                 </string>
             </file>
             <file

@@ -1,4 +1,5 @@
 <!-- From: file:/home/jamie/projects/android/first_android_app/src/main/AndroidManifest.xml --><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.threewisemonkeysdevelopment.android">
+    <uses-sdk android:minSdkVersion="18" android:targetSdkVersion="18"/>
     <application android:icon="@drawable/ic_launcher" android:label="@string/app_name">
         <activity android:label="@string/app_name" android:name="com.threewisemonkeysdevelopment.android.MainActivity">
             <intent-filter>
@@ -6,5 +7,8 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:label="@string/title_activity_display_message" android:name="com.threewisemonkeysdevelopment.android.DisplayMessageActivity" android:parentActivityName="com.threewisemonkeysdevelopment.android.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.threewisemonkeysdevelopment.android.MainActivity"/>
+            </activity>
     </application>
 </manifest>
